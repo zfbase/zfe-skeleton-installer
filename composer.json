@@ -1,0 +1,27 @@
+{
+    "name": "zfbase/zfe-skeleton-installer",
+    "description": "Installer plugin for ZFE skeleton application",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ilya Serdyuk",
+            "email": "ilya@serdyuk.pro"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ZFE\\SkeletonInstaller\\": "src/"
+        }
+    },
+    "extra": {
+        "class": "ZFE\\SkeletonInstaller\\Plugin"
+    },
+    "require": {
+        "php": "^7.1",
+        "composer-plugin-api": "^1.1"
+    },
+    "require-dev": {
+        "composer/composer": "^1.8"
+    }
+}
